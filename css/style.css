@@ -1,0 +1,309 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+li{
+	list-style-type: none;
+}
+.container{
+	width: 100%;
+	background-color: #f1f1f1;
+}
+
+/*start header*/
+
+
+nav{
+	width: 1110px;
+	margin: 0 auto;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	margin-bottom: 2rem;
+}
+nav .logo__ul{
+	display: flex;
+	align-items: center;
+	font-size: 25px;
+}
+nav .header__ul{
+	width: 490px;
+	margin: 0 a;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+nav .btn{
+	border: 1px solid darkblue;
+	color: #fff;
+	background-color: darkblue;
+	padding: 10px 25px;
+	border-radius: 7px;
+}
+.flex-container{
+	width: 1110px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.box{
+	margin-top: 2rem;
+	margin-left: 1rem;
+}
+.box h1{
+	font-size: 37px;
+	letter-spacing: 2px;
+	margin-bottom: 1.5rem;
+}
+.box span{
+	color: yellow;
+}
+.box p{
+	line-height: 23px;
+	margin-bottom: 1.5rem;
+	color: grey;
+}
+.box button{
+	width: 262px;
+	border: 1px solid yellow;
+	background-color: yellow;
+	padding: 13px 10px;
+	border-radius: 7px;
+	text-align: start;
+}
+.box-2{
+	position: relative;
+	
+}
+.box-2 img{
+	width: 500px;
+}
+.img1{
+	width: 400px;
+}
+
+.img2{
+	position: absolute;
+	right: 0;
+	bottom: 0
+}
+
+/*end header*/
+
+
+/* start main */
+
+main{
+	width: 1110px;
+	margin: 2.5rem auto;
+}
+.main__title{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+.main-cards{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+.cards{
+	width: 32%;
+	background-color: #f1f1f1;
+}
+.cards img{
+	border: 1px solid orange;
+	background-color: orange;
+	padding: 13px 18px;
+	border-radius: 50%;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.cards h3{
+	margin-bottom: 1rem;
+}
+.cards p{
+	color: grey;
+	margin-bottom: 1.5rem;
+}
+
+/*end main*/
+
+
+
+
+/* start section */
+
+section{
+	width: 1110px;
+	margin: 0 auto;
+}
+.section__text{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1.5rem;
+}
+.section__text h2{
+	width: 50%;
+	font-size: 45px;
+	line-height: 37px;
+	letter-spacing: 2px;
+}
+.section__text p{
+	width: 50%;
+	margin: 0 auto;
+	letter-spacing: 1.5px;
+	font-size: 17px;
+	color: grey;
+}
+section video{
+	width: 1110px;
+	margin: 0 auto;
+}
+
+
+/* end section */
+
+
+
+
+
+
+
+/* start aside */
+
+aside{
+	width: 100%;
+	margin: 4rem auto;
+	background-color: #f1f1f1
+}
+.aside__style{
+	width: 1110px;
+	margin: 0 auto;
+}
+.aside__title{
+	font-size: 32px;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.number img{
+	width: 900px;
+	margin-bottom: 1.5rem;
+}
+
+.aside__cards{
+	width: 1110px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.card h3{ 
+	margin-bottom: 1.5rem;
+}
+.card p{
+	margin-bottom: 1.5rem;
+}
+
+/* end aside */
+
+
+
+/*start footer*/
+
+
+footer{
+	width: 100%;
+	margin: 0 auto;
+	min-height: 260px;
+	background-color: #313131;
+}
+
+.footer__flex{
+	width: 1110px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__logo ul{
+	margin-top: 1.5rem;
+	display: flex;
+	align-items: center;
+	color: #fff;
+	margin-bottom: 1.5rem;
+}
+.footer__logo p{
+	color: #fff;
+	margin-bottom: 1.5rem;
+}
+
+.footer__item{
+	margin-top: 1.5rem;
+}
+.footer__item p{
+	color: #fff;
+	margin-bottom: 1.5rem;	
+}
+.footer__item li{
+	padding-bottom: 1rem;
+}
+.footer__item ul li a{
+	padding-bottom: 10px;
+	color: #fff;
+}
+
+
+
+
+.footer__item2{
+	margin-top: 1.5rem;
+}
+.footer__item2 p{
+	color: #fff;
+	margin-bottom: 1.5rem;	
+}
+.footer__item2 li{
+	padding-bottom: .7rem;
+}
+.footer__item2 ul li a{
+	color: #fff;
+}
+
+
+
+
+.footer__item3{
+	margin-top: 1.5rem;
+}
+.footer__item3 p{
+	color: #fff;
+	margin-bottom: 1.5rem;	
+}
+.footer__item3 li{
+	padding-bottom: .7rem;
+}
+.footer__item3 ul li a{
+	color: #fff;
+}
+
+
+
+.chiziq{
+	width: 1110px;
+	margin: 2rem auto;
+	height: 1px;
+	background-color: #fff;
+
+}
+
+.end{
+	width: 1110px;
+	margin: 0 auto;
+	color: #fff;
+}
